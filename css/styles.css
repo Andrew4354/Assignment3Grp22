@@ -1,0 +1,66 @@
+
+
+.footer{position: fixed;
+  bottom: 0;
+  left: 0;
+  background-color: #fcd581;
+  width: 100%;
+  height: 25px;
+  }
+header{text-align: center;}
+.maintitle {font-size: 70px; font-family: 'Racing Sans One';}
+.mainsub {font-style: italic; font-size: 20px; font-family:sans-serif;}
+.mainheading {font-family: 'Press Start 2P'; text-align:center;}
+body {background-color: #FFF8E8; margin-left:400px; margin-right: 200px}
+h2 {text-align:center; font-family: sans-serif;}
+h1 {text-align:center;}
+h3 {text-align:center;}
+h4 {text-align:center;}
+
+.links {font-size: 20px;}
+
+p {text-align: center;}
+div {text-align: center;}
+
+
+.cube {
+
+  float: inherit;
+  padding: 20px;
+  border-style: solid;
+  border-color: #9e4936;
+  border-radius: 20px;
+  border-width: thin;
+  background-color: #fcd581;
+
+}
+
+/* The sidebar menu */
+.sidenav {
+
+  width: 200px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 16px; /* Stay at the top */
+  left: 16px;
+  background-color: #fcd581;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-style: solid;
+  border-color: #9e4936;
+  border-radius: 20px;
+  border-width: thin;
+
+}
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color:#9e4936;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
